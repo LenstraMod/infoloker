@@ -28,8 +28,13 @@ import closenav from './close.png';
 import search from './search.png';
 import Login from './login-content.png';
 import Signup from './signup-content.png'
-
+import Map from './indonesiaMap.png';
+import aboutContent from './aboutContent.png';
+import aboutPhoto from './aboutPhoto.png';
 export {
+  aboutPhoto,
+  aboutContent,
+  Map,
   Signup,
   Login,
   search,
