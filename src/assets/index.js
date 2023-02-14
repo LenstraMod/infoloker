@@ -31,7 +31,16 @@ import Signup from './signup-content.png'
 import Map from './indonesiaMap.png';
 import aboutContent from './aboutContent.png';
 import aboutPhoto from './aboutPhoto.png';
+import partTime from './partTimeJob.png';
+import fullTime from './fullTimeJob.png';
+import freshGraduate from './freshGraduate.png';
+import mainContent from './mainContent.png'
+
 export {
+  mainContent,
+  partTime,
+  fullTime,
+  freshGraduate,
   aboutPhoto,
   aboutContent,
   Map,

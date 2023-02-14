@@ -1,7 +1,7 @@
 import React from 'react'
-import { Navbar } from './components'
-import styles from "./style";
-import {Map, aboutContent, aboutPhoto} from './assets'
+import { Navbar } from '../components'
+import styles from "../style";
+import {Map, aboutContent, aboutPhoto} from '../assets'
 
 const About = () => {
   return (

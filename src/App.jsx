@@ -1,19 +1,25 @@
 import React, { Component,useState } from 'react'
-import Home from './home'
-import Login from './Login'
-import Register from './register'
-import About from './about'
-import {BrowserRouter,Route,Link} from 'react-router-dom'
+import Home from './pages/home'
+import Login from './pages/Login'
+import Register from './pages/register'
+import About from './pages/about'
+import Type  from './pages/type'
+import notFound from './pages/notFound'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+
 
 
 
 const App = () => {
   return (
-    // <BrowserRouter>
-    <div>
-      <About />
-    </div>
-    // </BrowserRouter>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home /> } />
+        <Route path='/about' element={<About /> } />
+        <Route path='*' element={<notFound /> } />
+        <Route path='/login' element={<Login/> } />
+      </Routes>
+    </Router>
   )
 }
 

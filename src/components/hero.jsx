@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { search,robot } from '../assets'
+import { search,robot,mainContent } from '../assets'
 
 const hero = () => {
   return(
@@ -33,7 +33,7 @@ const hero = () => {
             </div>       
     </div>
     <div>
-        <img src={robot} alt="robot" className='w-[100%] max-w-[600px] h-100[100%] relative z-[5]' />
+        <img src={mainContent} alt="robot" className='w-[100%] max-w-[600px] h-100[100%] relative z-[5]' />
     </div>
   </section>
   )

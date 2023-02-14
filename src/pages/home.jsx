@@ -1,5 +1,5 @@
-import styles from "./style";
-import { Navbar,Footer,Hero } from "./components";
+import styles from "../style";
+import { Navbar,Footer,Hero } from "../components";
 
 export default function home() {
   return (

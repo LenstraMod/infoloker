@@ -1,7 +1,7 @@
-import styles from "./style";
-import { Navbar,Footer,Hero } from "./components";
+import styles from "../style";
+import { Navbar,Footer,Hero } from "../components";
 import { useState, useEffect } from "react";
-import {Signup} from './assets';
+import {Signup} from '../assets';
 
 
 
