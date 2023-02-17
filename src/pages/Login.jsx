@@ -21,6 +21,9 @@ export default function LoginPage() {
       e.preventDefault();
       setIsSubmit(true) ;
       setFormErrors(validate(formValues))
+      console.log(formValues);
+      localStorage.setItem('email', formValues.email);
+      localStorage.setItem('password', formValues.password);
     }
     useEffect(() => {
       console.log(formErrors);
@@ -70,7 +73,7 @@ export default function LoginPage() {
                   <p className="text-red-600">{formErrors.password}</p>
                   <div className="btn flex justify-center gap-10">
                   <button className="border py-[16px] px-[12px] w-[95px] h-[fit] rounded-md bg-red-600 text-white font-poppins hover:bg-red-700 text-[15px]" value={loading? 'Loading...' : 'Login'} type="submit">LOGIN</button>
-                  <button className="border py-[16px] px-[12px] w-[95px] h-[fit] rounded-md outline outline-offset-2 outline-2 outline-red-600 text-[15px] hover:outline-red-700">REGISTER</button>
+                 <Link to="/register"> <button className="border py-[16px] px-[12px] w-[95px] h-[fit] rounded-md outline outline-offset-2 outline-2 outline-red-600 text-[15px] hover:outline-red-700">REGISTER</button></Link>
                   </div>
                 </form>
               </div>
