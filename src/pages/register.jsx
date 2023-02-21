@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 
 
 
+
 const Register = () => {
 
     const initialValues = { username: "" ,email: "",phone: "",gender: "",  password: "" ,confirm: ""};
@@ -24,6 +25,21 @@ const Register = () => {
         setFormErrors(validate(formValues))
         SetIsSubmit(true)
         console.log(formValues)
+
+        // const url = "http://localhost:5173/register";
+
+        // fetch(url,{
+        //   method : 'POST',
+        //   headers : { headers: { 'Content-Type': 'application/json' },
+        //   body: JSON.stringify(formValues)}
+        // })
+        // .then(response => response.json())
+        // .then(data =>{
+        //   console.log("success")
+        // })
+        // .catch(error => {
+        //   console.log(error)
+        // })
     }
 
     useEffect(() => {

@@ -34,9 +34,11 @@ import aboutPhoto from './aboutPhoto.png';
 import partTime from './partTimeJob.png';
 import fullTime from './fullTimeJob.png';
 import freshGraduate from './freshGraduate.png';
-import mainContent from './mainContent.png'
+import mainContent from './mainContent.png';
+import Avatar from './avatar.png';
 
 export {
+  Avatar,
   mainContent,
   partTime,
   fullTime,
