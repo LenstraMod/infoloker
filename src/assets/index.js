@@ -36,8 +36,14 @@ import fullTime from './fullTimeJob.png';
 import freshGraduate from './freshGraduate.png';
 import mainContent from './mainContent.png';
 import Avatar from './avatar.png';
+import Location from './location.png';
+import compExImg from './company-examp-img.png';
+import StarFix from './star.png'
 
 export {
+  StarFix,
+  compExImg,
+  Location,
   Avatar,
   mainContent,
   partTime,

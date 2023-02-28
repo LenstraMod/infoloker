@@ -26,20 +26,20 @@ const Register = () => {
         SetIsSubmit(true)
         console.log(formValues)
 
-        // const url = "http://localhost:5173/register";
+         const url = "http://localhost:5173/register";
 
-        // fetch(url,{
-        //   method : 'POST',
-        //   headers : { headers: { 'Content-Type': 'application/json' },
-        //   body: JSON.stringify(formValues)}
-        // })
-        // .then(response => response.json())
-        // .then(data =>{
-        //   console.log("success")
-        // })
-        // .catch(error => {
-        //   console.log(error)
-        // })
+          fetch(url,{
+           method : 'POST',
+           headers : { headers: { 'Content-Type': 'application/json' },
+           body: JSON.stringify(formValues)}
+         })
+         .then(response => response.json())
+         .then(data =>{
+           console.log("success")
+         })
+         .catch(error => {
+           console.log(error)
+         })
     }
 
     useEffect(() => {

@@ -8,9 +8,9 @@ const About = () => {
     <div className="w-full bg-white overflow-hidden">
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-    
+        <div className={`${styles.boxWidth}`}>
           <Navbar />
-
+        </div>
       </div>
       
       <div className={`${styles.flexCenter} bg-[#FF3333] shadow-lg`}>
