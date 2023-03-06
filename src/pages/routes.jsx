@@ -8,6 +8,7 @@ import NotFound from './notFound';
 import Profile  from './profile';
 import Check from './check';
 import Search from './search';
+import Company from './company';
 
 
 const Routers = () =>{
@@ -23,6 +24,8 @@ const Routers = () =>{
           <Route path ='/check' element={<Check />} />
           <Route path='/type' element={<Type />} />
           <Route path='/search' element={<Search />} />
+          <Route path='/company' element={<Company />}  />
+
         </Routes>
       </Router>
     )
