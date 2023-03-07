@@ -38,9 +38,13 @@ import mainContent from './mainContent.png';
 import Avatar from './avatar.png';
 import Location from './location.png';
 import compExImg from './company-examp-img.png';
-import StarFix from './star.png'
+import StarFix from './star.png';
+import compBg from './comp-bg-img.png';
+import compProf from './comp-prof-pict.png';
 
 export {
+  compProf,
+  compBg,
   StarFix,
   compExImg,
   Location,
