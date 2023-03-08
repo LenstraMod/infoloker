@@ -10,7 +10,7 @@ import Check from './check';
 import Search from './search';
 import Company from './company';
 import Bookmark from "./bookmark";
-
+import Chat from "./chat";
 
 const Routers = () =>{
     return(
@@ -26,6 +26,7 @@ const Routers = () =>{
           <Route path='/search' element={<Search />} />
           <Route path='/company' element={<Company />}  />
           <Route path='/bookmark' element={<Bookmark />}  />
+          <Route path='/chat' element={<Chat />}  />
           <Route path='*' element={<NotFound /> } />
         </Routes>
       </Router>

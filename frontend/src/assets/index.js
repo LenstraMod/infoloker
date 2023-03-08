@@ -44,8 +44,10 @@ import compProf from './comp-prof-pict.png';
 import Mark from './bookmark.png';
 import markClicked from './bookmark-clicked.png';
 import Share from './share.png';
+import chatProf from './profile.png';
 
 export {
+  chatProf,
   Share,
   Mark,
   markClicked,
