@@ -9,6 +9,7 @@ import Profile  from './profile';
 import Check from './check';
 import Search from './search';
 import Company from './company';
+import Bookmark from "./bookmark";
 
 
 const Routers = () =>{
@@ -17,7 +18,6 @@ const Routers = () =>{
         <Routes>
           <Route exact path='/' element={<Home /> } />
           <Route path='/about' element={<About /> } />
-          <Route path='*' element={<NotFound /> } />
           <Route path='/login' element={<Login/> } />
           <Route path='/register' element={<Register/> } />
           <Route path ='/profile' element={<Profile />} />
@@ -25,7 +25,8 @@ const Routers = () =>{
           <Route path='/type' element={<Type />} />
           <Route path='/search' element={<Search />} />
           <Route path='/company' element={<Company />}  />
-
+          <Route path='/bookmark' element={<Bookmark />}  />
+          <Route path='*' element={<NotFound /> } />
         </Routes>
       </Router>
     )

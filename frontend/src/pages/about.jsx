@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../components'
+import { Navbar,Footer } from '../components'
 import styles from "../style";
 import {Map, aboutContent, aboutPhoto} from '../assets'
 
@@ -41,6 +41,8 @@ const About = () => {
         </p>
       </div>
       </div>
+
+      <Footer />
 
     </div>
   )

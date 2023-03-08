@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../components';
+import { Navbar, Footer } from '../components';
 import { Avatar,Location } from '../assets';
 import styles from "../style"; 
 
@@ -116,6 +116,7 @@ const profile = () => {
         </div>
         </div>   
       </div>
+      <Footer />
     </div>
   )
 }

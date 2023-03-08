@@ -29,6 +29,7 @@ const Type = () => {
           </div>
       </div>
     </div>
+    <Footer />
     </div>
   )
 }

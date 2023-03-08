@@ -41,8 +41,14 @@ import compExImg from './company-examp-img.png';
 import StarFix from './star.png';
 import compBg from './comp-bg-img.png';
 import compProf from './comp-prof-pict.png';
+import Mark from './bookmark.png';
+import markClicked from './bookmark-clicked.png';
+import Share from './share.png';
 
 export {
+  Share,
+  Mark,
+  markClicked,
   compProf,
   compBg,
   StarFix,

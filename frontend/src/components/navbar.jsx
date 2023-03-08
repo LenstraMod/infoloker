@@ -17,7 +17,7 @@ const LoggedIn = () => {
 const LoggedOff = () => {
   return(
     <div className='hidden md:block'>
-      <Link to="/register"><button className='w-[78px] h-[39px] font-normal text-[18px] leading-[27px] font-poppins'>Sign Up</button></Link>
+      <Link to="/register"><button className='w-[78px] h-[39px] font-normal text-[18px] leading-[27px] font-poppins z-10'>Sign Up</button></Link>
       <Link to="/login"><button className='w-[78px] h-[39px] bg-[#FF3333] text-white rounded-md text-[18px] font-normal font-poppins leading-[27px] mx-5'>Sign In</button></Link>
     </div>
   )
@@ -27,7 +27,7 @@ const navbar = () => {
   const [toggle,setToggle] = useState(false)
   const login = false
   return (
-    <nav className='w-full bg-white flex py-6 justify-between items-center navbar'>
+    <nav className='w-full bg-white flex py-6 justify-between items-center navbar p-12'>
           <Link to='/'><p className='text-4xl font-sans font-extrabold text-red-600 antialiased'>INFO LOKER</p></Link>
 
           <ul className='list-none md:flex hidden justify-center items-center flex-1'>

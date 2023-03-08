@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../components';
+import { Navbar, Footer } from '../components';
 import styles from '../style';
 import { compExImg as img } from '../assets';
 import { starMap } from '../constants';
@@ -283,7 +283,7 @@ const search = () => {
             </div>
           </div>
         </div>
-
+          <Footer />            
       </div>
     </>
 

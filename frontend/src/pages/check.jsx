@@ -1,10 +1,12 @@
 import React from 'react';
-import { Navbar } from '../components';
+import { Navbar, Footer } from '../components';
 
 const check = () => {
   return (
     <div className='w-full bg-white overflow-hidden'>
         <Navbar />
+        <Footer />
+        
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import styles from "../style";
-import { Navbar,Footer,Hero } from "../components";
+import { Navbar,Footer} from "../components";
 import { useState, useEffect } from "react";
 import {Login} from '../assets';
 import { Link } from 'react-router-dom'
@@ -80,6 +80,7 @@ export default function LoginPage() {
             </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

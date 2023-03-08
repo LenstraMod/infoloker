@@ -1,5 +1,5 @@
 import styles from "../style";
-import { Navbar,Footer,Hero } from "../components";
+import { Navbar,Footer } from "../components";
 import { useState, useEffect } from "react";
 import {Signup} from '../assets';
 import {Link} from 'react-router-dom';
@@ -167,6 +167,7 @@ const Register = () => {
             </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

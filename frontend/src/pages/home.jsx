@@ -11,6 +11,7 @@ export default function home() {
       <div className={`${styles.flexStart} bg-white`}>
         <Hero />
       </div>
+      <Footer />
     </div>
   )
 }
