@@ -1,12 +1,9 @@
-import React from 'react'
+import React,{useEffect } from 'react'
 import styles from '../style'
 import { search,mainContent } from '../assets'
 import {Link} from 'react-router-dom'
 import ReactLoading from 'react-loading';
 
-const Title = () => {
-    return <p>Info Loker</p>
-}
 
 const Loading = () =>{
     return <ReactLoading type="bubbles" color="#0000FF" 
@@ -18,6 +15,11 @@ const Img = () => {
 }
 
 const hero = () => {
+
+    useEffect(() => {
+        document.title = "Home";
+    },[])
+
   return(
     <>
     {/* section name */}
@@ -27,7 +29,7 @@ const hero = () => {
             {/* Home Content */}
             <div className="home-title">
                 <h1 className='text-[60px] font-poppins font-bold leading-[90px]'>
-                    FIND YOUR DRAM JOB <br/>
+                    FIND YOUR DREAM JOB <br/>
                     <span className='text-[#FF3333]'>FAST AND EASY</span>
                 </h1>
                 <p className='font-poppins text-[24px] leading-[36px] font-normal'>Find a job that suits you in INFO LOKER</p>

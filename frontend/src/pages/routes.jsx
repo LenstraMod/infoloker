@@ -11,6 +11,7 @@ import Search from './search';
 import Company from './company';
 import Bookmark from "./bookmark";
 import Chat from "./chat";
+import CompanyAccount from "./companyAccount";
 
 const Routers = () =>{
     return(
@@ -27,6 +28,7 @@ const Routers = () =>{
           <Route path='/company' element={<Company />}  />
           <Route path='/bookmark' element={<Bookmark />}  />
           <Route path='/chat' element={<Chat />}  />
+          <Route path="/company/account" element={<CompanyAccount /> } />
           <Route path='*' element={<NotFound /> } />
         </Routes>
       </Router>

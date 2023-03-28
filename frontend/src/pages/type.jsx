@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import {partTime,freshGraduate,fullTime} from '../assets'; 
 import styles from "../style";
-import Navbar from '../components/navbar'
+import { Navbar } from '../components';
 import { Link } from 'react-router-dom';
 
 const Type = () => {
+
+  useEffect(() => {
+    document.title = "Infoloker | type"
+  },[])
+
   return (
     <div>
       <div className="w-full bg-white overflow-hidden">
@@ -29,7 +34,6 @@ const Type = () => {
           </div>
       </div>
     </div>
-    <Footer />
     </div>
   )
 }

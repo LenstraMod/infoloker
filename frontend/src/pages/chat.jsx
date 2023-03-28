@@ -1,9 +1,13 @@
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 import { Footer, Navbar } from '../components';
 import { chatProf as Prof } from '../assets';
 
 
 const chat = () => {
+
+    useEffect(() => {
+        document.title = "Infoloker | Chat"
+      },[])
 
     const [messages,setMessages] = useState([]);
     const [newMessage,setNewMessage] = useState("");

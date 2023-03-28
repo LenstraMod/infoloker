@@ -43,6 +43,9 @@ const Register = () => {
     }
 
     useEffect(() => {
+
+        document.title= "Infoloker | Register"
+
         console.log(formErrors);
         if(Object.keys(formErrors).length === 0 && isSubmit ? alert("Signed Up Success") : "failed"){
             console.log(formValues);

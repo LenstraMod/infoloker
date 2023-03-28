@@ -1,10 +1,14 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import { Navbar, Footer } from '../components';
 import styles from '../style';
 import { compExImg as img } from '../assets';
 import { starMap } from '../constants';
 
 const search = () => {
+
+  useEffect(() => {
+    document.title = "Infoloker | Search"
+  },[])
   
     const Comp = () =>{
       return <img src={img} alt="search" />

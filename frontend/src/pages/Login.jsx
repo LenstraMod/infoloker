@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom'
 
 export default function LoginPage() {
 
+  useEffect(() => {
+    document.title = "Infoloker | Login"
+  },[])
+
     const initialValues = {email: "", password: ""};
     const [formValues,setFormValues] = useState(initialValues);
     const [formErrors,setFormErrors]= useState({});

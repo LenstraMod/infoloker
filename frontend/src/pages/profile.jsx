@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import { Navbar, Footer } from '../components';
 import { Avatar,Location } from '../assets';
 import styles from "../style"; 
 
 const profile = () => {
+
+  useEffect(() => {
+    document.title = "Infoloker | Profile"
+  },[])
+
   return (
     <div className="w-full bg-white overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>

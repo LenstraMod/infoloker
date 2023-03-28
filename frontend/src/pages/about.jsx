@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import { Navbar,Footer } from '../components'
 import styles from "../style";
 import {Map, aboutContent, aboutPhoto} from '../assets'
 
 const About = () => {
+
+  useEffect(() =>{
+    document.title = "About Us"
+  },[])
+
   return (
     <div className="w-full bg-white overflow-hidden">
 

@@ -1,10 +1,14 @@
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 import styles from '../style';
 import { Navbar, Footer } from '../components';
 import { compBg, compProf, Mark, markClicked, Share } from '../assets';
 import { starMap } from '../constants';
 
 const company = () => {
+
+    useEffect(() => {
+        document.title = "Infoloker | Company Page"
+      },[])
 
     const [toggle,setToggle] = useState(false);
     const [copy,setCopy] = useState(false);

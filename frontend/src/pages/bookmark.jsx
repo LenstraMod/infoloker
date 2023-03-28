@@ -1,8 +1,12 @@
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 import { Navbar, Footer } from '../components';
 import { compProf, compBg, Mark,markClicked } from '../assets';
 
 const bookmark = () => {
+
+  useEffect(() => {
+    document.title = "Infoloker | Bookmark"
+  },[])
 
   const [toggle,setToggle] = useState(true);
 

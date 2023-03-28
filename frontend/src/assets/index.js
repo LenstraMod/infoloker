@@ -45,8 +45,10 @@ import Mark from './bookmark.png';
 import markClicked from './bookmark-clicked.png';
 import Share from './share.png';
 import chatProf from './profile.png';
+import companyAccount from './companyAccount.png';
 
 export {
+  companyAccount,
   chatProf,
   Share,
   Mark,
